@@ -4,8 +4,8 @@ import 'package:tokuapp/models/Item.dart';
 import 'package:tokuapp/screens/homepage.dart';
 
 class FamilyMember extends StatelessWidget {
-  FamilyMember({super.key});
-  final List<ItemModel> familyMember = [
+  const FamilyMember({super.key});
+  final List<ItemModel> familyMember = const [
     ItemModel(
         image: 'assets/images/family_members/family_father.png',
         jaName: 'ichi',
