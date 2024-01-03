@@ -24,14 +24,12 @@ class Items extends StatelessWidget {
             cacheHeight: 77,
           ),
           Expanded(
-            child: Container(
-              child: Row(
-                children: [
-                  ItemInfo(
-                    item: item,
-                  )
-                ],
-              ),
+            child: Row(
+              children: [
+                ItemInfo(
+                  item: item,
+                )
+              ],
             ),
           ),
         ],
